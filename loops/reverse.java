@@ -6,6 +6,7 @@ public class reverse {
         Scanner x = new Scanner(System.in);
         int num = x.nextInt();
         
+        int original = num;
         int rev = 0;
         
         while (num != 0) {
@@ -14,6 +15,14 @@ public class reverse {
              num = num / 10; // last digits still on right side then it will remove it .
 
         }
-        System.out.println(rev);
+        System.out.println(rev);  // no checker palindrome or not
+
+        if(original == rev) {
+            System.out.println("eneterd number is palindrom");
+        } else {
+            System.out.println("no is not palindrom");
+        }
     }
+
+    
 }
