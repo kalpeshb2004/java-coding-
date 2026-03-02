@@ -3,8 +3,12 @@ import java.util.Scanner;
 
 public class factorial {
     public static void calFactorial(int n) {
-        int fact = 1;
+        if(n < 0) {
+            System.out.println("invalid number");
+            return;
+        }
 
+        int fact = 1;
         for (int i = n; i>=1; i--) {
             fact = fact * i;
         }
