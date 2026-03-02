@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class function{
+public class functionSum{
 
     public static int sum(int a,int b) {
         int sum = a + b;
