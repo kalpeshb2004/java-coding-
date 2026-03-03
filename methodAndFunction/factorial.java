@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class factorial {
     public static void calFactorial(int n) {
         if(n < 0) {
-            System.out.println("invalid number");
+            System.out.println("enetered number is invalid");
             return;
         }
 
