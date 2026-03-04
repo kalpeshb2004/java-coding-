@@ -12,11 +12,8 @@ public class reverse {
             number[i] = x.nextInt();
         }
 
-        for (int i = 0; i < number.length; i++) {
-            int temp = number[i] % 10;
-            number[i] = number[i] * 10 + temp;
-            number[i] = number[i] / 10;
-        }
-        System.out.print("reverse array is :" + " "+number[i]);
+       for (int i = number.length - 1; i >= 0; i--) {
+           System.out.print("reverse array is: " + number[i] +" ");
+       }
     }
 }
