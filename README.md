@@ -1,6 +1,6 @@
 # This is the journey that i am starting and taking challenge to learn Java until the 2nd semister end .
 --------------------------------------------------------------------------------------------------------
-Java Basics Fundamental
+Java Basics Fundamental \n
 1.what is code ?
 2.input-output,Variables & Data Types
 3.Conditional Statements
