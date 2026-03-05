@@ -5,7 +5,7 @@ public class stringArrayLength {
     public static void main(String[] args) {
         Scanner x= new Scanner(System.in);
         int size = x.nextInt();
-        x.nextLine(); // bec conversion from stint to int gets difficult
+        x.nextLine(); // bec conversion from stint to int gets difficult.
 
         // array creation
         String name[] = new String[size];
