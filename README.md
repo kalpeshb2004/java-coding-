@@ -2,7 +2,6 @@
 --------------------------------------------------------------------------------------------------------
 Java Basics Fundamental 
 
-
 1.what is code ?
 2.input-output,Variables & Data Types
 3.Conditional Statements
