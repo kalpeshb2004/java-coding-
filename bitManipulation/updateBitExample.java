@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class updateBitExample {
     public static void main(String[] args) {
         Scanner x= new Scanner(System.in);
-        //which operation wants to perform i.e 0 to 1 : set OR 1 to 0 : clear 
+        //which operation wants to perform i.e 0 to 1 : set, OR 1 to 0 : clear 
         int ope = x.nextInt();
         int n = 5;
         int pos = 1;
