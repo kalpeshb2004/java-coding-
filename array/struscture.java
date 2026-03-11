@@ -15,8 +15,7 @@ public class struscture {
 
     //array output
     for (int i = 0; i < size; i++) {
-        System.out.println(number[i
-        ]);
+        System.out.println(number[i]);
     }
 
 
