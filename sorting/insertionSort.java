@@ -9,7 +9,7 @@ public class insertionSort{
     public static void main(String[] args) {
         int arr[] = {2,6,3,5,1};
         for (int i = 1; i <arr.length ; i++) {
-            int current = arr[i]; //first index
+            int current = arr[i]; //first value
             int j = i-1; //last index
             while(j >=0 && current < arr[j]){
                 arr[j+1] = arr[j];
