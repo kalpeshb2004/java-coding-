@@ -1,7 +1,5 @@
 
 import java.util.Scanner;
-
-
 class calculator {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
@@ -10,7 +8,7 @@ class calculator {
         int b = x.nextInt();
 
         System.out.println("enter operators");
-        char op = x.next().charAt(0);
+        char op = x.next().charAt(0); //.charAt(0) bec of 'operator'
 
         switch (op) {
             case '+' : System.out.println("addition is " + (a + b));
