@@ -7,9 +7,10 @@ public class firstNSum {
         }
 
         sum += i;
-        print(i+1,n,sum);
+        print(i+1,n,sum);// looping function that call itself and keep runnig like a loop
     }
     public static void main(String[] args) {
+        
         print(1, 5, 0);
     }
 }
