@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-class Q13 {
+class solution {
 
     /*
      * Complete the 'findDay' function below.
@@ -38,7 +38,7 @@ class Q13 {
 
 }
 
-public class Solution {
+public class Q13 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
