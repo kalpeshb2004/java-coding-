@@ -7,7 +7,7 @@ public class charAtEnd {
             System.out.println(newStr);
             return;
         }
-        
+        //commit
         char currentChar = str.charAt(i);
         if(currentChar == element){
             count++;
