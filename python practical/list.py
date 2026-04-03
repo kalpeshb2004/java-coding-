@@ -1,13 +1,17 @@
-# Take space-separated integers as input and convert to list
-lst = list(map(int, input("enter a list item : ").split()))
-print("list item : ", lst)
+lst = list(map(int,input("enter elements : ").split()))
 
-lst.append(50)                  # Add 50 at end of list
-print("list item : ", lst)
+lst.append(50)
+print("appended elements at last pos :" ,lst)
 
-if len(lst) > 0:                # Remove first element if list is not empty
-    lst.remove(lst[0])
-print("list item : ", lst)
+lst.sort()
+print("sortes elements :" ,lst)
 
-lst.sort()                      # Sort the list in ascending order
-print("list item : ", lst)
+if len(lst) > 0:
+    lst.remove(lst[2])
+print("removed array :" ,lst)
+
+lst.reverse()
+print("reversed list :" ,lst)
+
+lst.insert(1,50)
+print("inserted array is given")
