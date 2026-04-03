@@ -1,3 +1,4 @@
+#todays new commit 
 lst = list(map(int,input("enter elements : ").split()))
 
 lst.append(50)
